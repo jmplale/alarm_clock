@@ -24,3 +24,9 @@ while True:
     minute_now = time_now.strftime('%M')
     seconds_now = time_now.strftime('%S')
     time_period_now = time_now.strftime('%p')
+    # if statements
+    if period_alarm == time_period_now:
+        if hour == hour_now:
+            if minute == minute_now:
+                if seconds == seconds_now:
+                    

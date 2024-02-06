@@ -29,4 +29,4 @@ while True:
         if hour == hour_now:
             if minute == minute_now:
                 if seconds == seconds_now:
-                    
+                    print("Alarm is ringing. Time to wake up!") # print something if the alarm already hits

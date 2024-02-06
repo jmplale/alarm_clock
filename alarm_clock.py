@@ -34,3 +34,4 @@ while True:
                     pygame.mixer.music.play()  # it will play the ringtone
                     while pygame.mixer.music.get_busy(): # this will continue playing the ringtone if the user did not stop it
                         continue
+                    break # to stop the alarm 

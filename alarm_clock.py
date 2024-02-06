@@ -30,3 +30,4 @@ while True:
             if minute == minute_now:
                 if seconds == seconds_now:
                     print("Alarm is ringing. Time to wake up!") # print something if the alarm already hits
+                    pygame.mixer.music.load(r'C:\Users\USER\Downloads\ringtone.mp3') # location of the ringtone that i want to use

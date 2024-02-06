@@ -15,3 +15,6 @@ period_alarm = time[9:11].upper()
 
 # printing words while setting your alarm
 print("Hold on! Your alarm is about to ring yet. Take a rest for a while!")
+
+# while loop to set up the alarm
+while True:

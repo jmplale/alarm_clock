@@ -18,3 +18,9 @@ print("Hold on! Your alarm is about to ring yet. Take a rest for a while!")
 
 # while loop to set up the alarm
 while True:
+    # these variables will detect the current time
+    time_now = datetime.now()
+    hour_now = time_now.strftime('%I')
+    minute_now = time_now.strftime('%M')
+    seconds_now = time_now.strftime('%S')
+    time_period_now = time_now.strftime('%p')

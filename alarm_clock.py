@@ -13,3 +13,5 @@ minute = time[3:5]
 seconds = time[6:8]
 period_alarm = time[9:11].upper()
 
+# printing words while setting your alarm
+print("Hold on! Your alarm is about to ring yet. Take a rest for a while!")

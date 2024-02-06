@@ -32,3 +32,5 @@ while True:
                     print("Alarm is ringing. Time to wake up!") # print something if the alarm already hits
                     pygame.mixer.music.load(r'C:\Users\USER\Downloads\ringtone.mp3') # location of the ringtone that i want to use
                     pygame.mixer.music.play()  # it will play the ringtone
+                    while pygame.mixer.music.get_busy(): # this will continue playing the ringtone if the user did not stop it
+                        continue
